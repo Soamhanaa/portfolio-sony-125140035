@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(250, 170, 183);
+    color: white;
+    z-index: 100;
+    padding: 20px;
+    position: sticky;
+}
+
+.nav-kiri {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.nav-kanan a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-kanan {
+    list-style: none;
+    display: flex;
+    gap: 25px;  
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: pink;
+    color: white;
+    gap: 50px;
+}
+
+.home-kiri {
+    flex: 1;
+}
+
+.home-kanan {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.home-kanan img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.foto-sony{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;  
+    padding-right: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(255, 153, 170);
+    color: white;
+}
+footer {
+    background-color: rgb(250, 170, 183);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-right: 30px;
+}
+
+.about div a{
+    text-decoration: none;
+    color: rgb(255, 153, 170);
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
